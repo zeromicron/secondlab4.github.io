@@ -1,0 +1,33 @@
+body {
+    background-color: #94e08b;
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+
+  img {
+        width: 573px;
+        height: 381px;
+      }
+
+
+@media (max-width: 768px) {
+      body {
+        font-size: 18px;
+    }
+    img {
+        max-width: 100%;
+    }
+}
+
+
+    @media (min-width: 992px) {
+      body {
+        font-size: 20px;
+    }
+
+}
